@@ -1,0 +1,23 @@
+#divk {
+    border: 20px solid rgb(175, 170, 170);
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+}
+
+.p1 {
+    color: rgb(130, 130, 157);
+    text-transform: uppercase;
+}
+h2{
+    text-transform: capitalize;
+}
+.para1
+{
+    border-left: 4px solid grey;
+    padding-left: 5px;
+}
+
+.div{
+    border-style: solid;
+}

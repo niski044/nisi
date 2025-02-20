@@ -1,0 +1,38 @@
+#p1{
+    text-overflow: clip;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid black;
+}
+#p2{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid black;
+}
+#p3{
+    text-overflow: break-word;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid black;
+}
+#p4{
+    text-overflow: keep-all;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid black;
+}
+#p5{
+    text-overflow: break-all;
+    overflow: hidden;
+    width: 100px;
+    border: 1px solid black;
+}
+#p6{
+    writing-mode: horizontal-tb;
+
+}
+#p7{
+    writing-mode: vertical-rl;
+}
+    

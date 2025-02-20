@@ -1,0 +1,77 @@
+/* tabela me border-collapse, border-spacing */
+#table1,.table1{
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+.table1{
+    padding: 20px;
+    margin: 10px;
+}
+/* per color te tabelave */
+#table1{
+    background-color: blue;
+    width: 400px;
+    height: 40px;
+}
+
+/* tabela me tekst,text-align,vertical-align */
+#table2,
+.table2{
+   margin-top: 50px;
+   border: 1px solid black;
+   width: 400px;
+   height: 40px;
+   border-collapse: collapse;
+   text-align: center;
+   vertical-align: middle;
+}
+/* tabel vetem nga njera ane me border */
+#table3,
+.table3{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 400px;
+   height: 40px;
+   border-collapse: collapse;
+}
+/* per me i caktu ngjyra te ndryshme rreshtave qift ose tek*/
+#table2 tr:nth-child(odd) {
+    background-color: pink;
+    color: blue;
+}
+/* tabela kur afrohet masui ndryshon ngjyra*/
+.table2:hover{
+    background-color: red;
+}
+ .table3:hover {
+    background-color: red;
+ }
+ 
+/* responsive table */
+
+div {
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    overflow: auto;
+}
+
+/* per te paraqitur nje titull apo nje pershkrim te tabeles */
+
+#table1 {
+    caption-side: top;
+     empty-cells: hide;
+}
+#table2 {
+    caption-side: bottom;
+    empty-cells: show;
+}
+#table4,
+.table4{
+    margin-top: 50px;
+    border: 1px solid black ;
+    width: 400px;
+    height: 40px;
+    border-collapse:collapse ;
+}
